@@ -36,6 +36,7 @@ const movieList = {
     { id: 13, title: "Jaws", year: 1975, genre: "Thriller" },
   ],
 };
+app.use(express.static(path.join(__dirname, "public")));
 
 // Set EJS as the template engine
 app.set("view engine", "ejs");
@@ -78,7 +79,7 @@ app.get("/movies/new", (req, res) => {
 // Route to handle form submission for a new movie
 app.post("/movies/create", (req, res) => {
   const newMovie = {
-    id: Date.now(), // generate unique id based on timestamp for simplicity
+    id: Date.now(),
     title: req.body.title,
     director: req.body.director,
     year: parseInt(req.body.year),

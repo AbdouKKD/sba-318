@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffae3; /* Light yellow background */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #003366; /* Deep blue for headings */
+  text-align: center;
+}
+
+h1 {
+  padding: 20px;
+  background-color: #003366; /* Deep blue background for header */
+  color: #fffae3; /* Light yellow text */
+  margin: 0;
+}
+
+h2 {
+  margin-top: 20px;
+  background-color: #004c99; /* Medium blue for section headers */
+  color: #fffae3; /* Light yellow text */
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #003366; /* Deep blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #004c99; /* Lighter blue for hover effect */
+  text-decoration: underline;
+}
+
+form {
+  background-color: #ffffff; /* White background for form */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #003366; /* Border with the deep blue color */
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #003366; /* Blue border for inputs and button */
+  box-sizing: border-box;
+}
+
+input:focus,
+button:focus {
+  border-color: #004c99; /* Change border to lighter blue when focused */
+}
+
+button {
+  background-color: #004c99; /* Medium blue background for button */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #003366; /* Darker blue background on hover */
+}
